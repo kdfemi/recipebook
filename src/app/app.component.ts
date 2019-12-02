@@ -10,7 +10,7 @@ export class AppComponent implements OnInit{
 
   ngOnInit(): void {
     firebase.initializeApp({
-      apiKey: "AIzaSyD1nHzVmcsWGEns2FlqKK9MoxVXZnMo1hI",
+      apiKey: "",
       authDomain: "ng-recipe-book-31179.firebaseapp.com",
     });
     if(localStorage.getItem('xsdyghl234')==null){
